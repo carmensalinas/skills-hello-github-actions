@@ -4,3 +4,7 @@ on:
     types: [opened]
   permissions:
     pull_requestes: write
+jobs:
+  build:
+    name: Carmen post welcome comment
+    runs-on: Ubuntu-latest
