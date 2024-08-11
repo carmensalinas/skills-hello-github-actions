@@ -1,0 +1,6 @@
+name: Carmen post welcome comment
+on:
+  pull_request:
+    types: [opened]
+  permissions:
+    pull_requestes: write
